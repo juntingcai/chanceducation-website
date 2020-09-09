@@ -14,17 +14,17 @@
                 </el-menu-item>
                 <el-menu-item index="FoundersWord">
                     <i class="el-icon-s-comment"></i>
-                    <span slot="title">Founder's Word</span>
+                    <span slot="title">Founder's Words</span>
                 </el-menu-item>
                 <el-menu-item index="Management">
                     <i class="el-icon-user-solid"></i>
                     <span slot="title">Management</span>
                 </el-menu-item>
-                <el-menu-item index="Management">
+                <el-menu-item index="Activities">
                     <i class="el-icon-user-solid"></i>
                     <span slot="title">Activities Pictures</span>
                 </el-menu-item>
-                <el-menu-item index="Management">
+                <el-menu-item index="achivments">
                     <i class="el-icon-user-solid"></i>
                     <span slot="title">Students Achivments</span>
                 </el-menu-item>
@@ -39,11 +39,15 @@
 import Management from './components/Management.vue';
 import FoundersWord from './components/FoundersWord.vue';
 import Overview from './components/Overview.vue';
+import Activities from './components/Activities.vue'
+import Achivments from './components/Achivment.vue';
 export default {
     components:{
         Management,
         FoundersWord,
         Overview,
+        Activities,
+        Achivments,
     },
     data(){
         return {
@@ -96,15 +100,14 @@ export default {
     font-weight: bold;
 }
 
-.panel-wrap{
-
-    margin-left: 25%;
-    width: 75%;
-    height: 100%;
-    
-}
 
 .el-menu-item i{
     color: #fff;
+}
+.panel-wrap{
+    margin-left: 25%;
+    width: 75%;
+    height: 100%;
+    min-height: 40rem;
 }
 </style>

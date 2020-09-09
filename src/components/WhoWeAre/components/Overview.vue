@@ -15,12 +15,11 @@ export default {
 
 <style>
 .overview-wrap{
-    width: 100%;
-    height: 100%;
+    
     padding: 2rem;
     box-sizing: border-box;
     position: relative;
-    background: url("../../../assets/2.jpg");
+    background: url("../../../assets/wwr.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     
